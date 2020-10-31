@@ -7,9 +7,3 @@ def listends(list):
     if len(list) > 1:
         result.append(list[len(list) - 1])
     return result
-
-# test lists
-print(listends(["first", 2, 3, "last"]))
-print(listends(["first", "last"]))
-print(listends(["only item"]))
-print(listends([]))
