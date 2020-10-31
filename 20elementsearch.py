@@ -63,14 +63,8 @@ range(5), \
 range(1, 15, 2), \
 [5], \
 range(6)]
-'''
-F
-F
-F
-T
-T
-T
-'''
+
+# Desired results: F F F T T T
 for i in range(len(testlists)):
     simplesearch(testlists[i], 5)
     loopsearch(testlists[i], 5)
