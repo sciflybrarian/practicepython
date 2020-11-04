@@ -36,15 +36,13 @@ while True:
         tries += 1
         continue
     
-    # wrong answers
+    # eval guesses
     if guess not in range(1, 10):
         print("Out of range!")
     elif guess < num:
         print("Too low!")
     elif guess > num:
         print("Too high!")
-        
-    # right answer
     else:
         print("That's right!")
         if tries == 1:
