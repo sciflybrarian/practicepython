@@ -33,7 +33,4 @@ def fibgen(n):
             fib.append(fib[i-2] + fib[i-1])
     return fib
             
-print(fibgen(getint()))
-        
-            
-            
+print(fibgen(getint()))         
