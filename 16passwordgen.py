@@ -47,6 +47,7 @@ while True:
     else:
         password = random.choice(words) + random.choice(words)
     print("\nYour password is: " + password)
+    #play again?
     another = input("\nGenerate another password? (Y/N) ")
     if another.lower() != "y":
         break
